@@ -1,0 +1,4 @@
+<picture>
+  <img [src]="src" [alt]="caption" [width]="width" [height]="height" [class.fill]="crop=='fill'" [class.fit]="crop=='fit'">
+  <caption *ngIf="caption">{{ caption }}</caption>
+</picture>

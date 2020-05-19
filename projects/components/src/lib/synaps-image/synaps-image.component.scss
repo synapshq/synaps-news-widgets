@@ -1,0 +1,11 @@
+:host {
+  display: inline-block;
+}
+
+img.fill {
+  object-fit: cover;
+}
+
+img.fit {
+  object-fit: contain;
+}
