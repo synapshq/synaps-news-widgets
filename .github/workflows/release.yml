@@ -27,7 +27,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Prepare Demo
-        run: mkdir public && mv dist public/. && move demo.html public/index.html
+        run: mkdir public && mv dist public/. && mv demo.html public/index.html
       - name: Deploy Demo
         uses: peaceiris/actions-gh-pages@v3
         with:
