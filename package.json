@@ -12,7 +12,6 @@
     "pack:elements": "ls -la ./dist/elements && cat ./dist/elements/runtime-es5.js ./dist/elements/polyfills-es5.js ./dist/elements/main-es5.js > dist/elements/elements.js && ls -lah dist/elements/elements.js",
     "build:components": "ng build --prod --project components"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.7",
     "@angular/common": "~9.1.7",
