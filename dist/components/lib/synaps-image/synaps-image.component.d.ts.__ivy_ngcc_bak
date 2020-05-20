@@ -1,0 +1,10 @@
+import { OnInit } from '@angular/core';
+export declare class SynapsImageComponent implements OnInit {
+    src: string;
+    caption: string;
+    width: number;
+    height: number;
+    crop: 'fill' | 'fit';
+    constructor();
+    ngOnInit(): void;
+}

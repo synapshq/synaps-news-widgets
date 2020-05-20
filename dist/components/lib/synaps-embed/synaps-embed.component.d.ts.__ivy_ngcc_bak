@@ -1,0 +1,23 @@
+import { OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+export interface OEmbedResponse {
+    html: string;
+    version: string;
+    type: string;
+    provider_url: string;
+    cache_age: string;
+    author_url: string;
+    height: number;
+    provider_name: string;
+    width: number;
+    author_name: string;
+    title: string;
+    url: string;
+}
+export declare class SynapsEmbedComponent implements OnInit {
+    private http;
+    set url(value: string);
+    html: string;
+    constructor(http: HttpClient);
+    ngOnInit(): void;
+}
